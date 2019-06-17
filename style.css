@@ -1,0 +1,247 @@
+.container{
+    float: left;
+    margin: 5px;
+    
+}
+
+.flag {
+    width: 200px;
+    height: 130px;
+    border: 1px black solid;
+}
+
+.nationality{
+    font-weight: 600;
+}
+
+/* Colors */
+.red { background-color: red;}
+.yellow {background-color: yellow;}
+.blue { background-color: blue;}
+.green {background-color: green;}
+.orange { background-color: orange}
+.white {background-color: white}
+
+/* Indonesia */
+.Indonesia .area1 {
+    height: 65px;
+}
+
+/* Columbia */
+.Columbia .area1{
+    height: 50%;
+}
+
+.Columbia .area2{
+    height: 25%;
+}
+
+.Columbia .area3{
+    height: 25%;
+}
+
+/* Ireland */
+.Ireland .flag{
+    display: flex;
+}
+
+.Ireland .area1{
+    width: 100%;
+    height: 100%;
+}
+.Ireland .area2{
+    width: 100%;
+    height: 100%;
+
+}
+.Ireland .area3{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* France */
+.France .flag{
+    font-size: 0;
+}
+
+.France .area1{
+    display: inline-block;
+    width:33.3%;
+    height: 100%;
+}
+.France .area2{
+    display: inline-block;
+    width:33.3%;
+    height: 100%;
+}
+.France .area3{
+    display: inline-block;
+    width:33.3%;
+    height: 100%; 
+}
+
+/* Benin */
+.Benin .flag{
+    font-size: 0;
+}
+
+.Benin .area1{
+    float: left;
+    height: 100%;
+    width: 33.3%;
+}
+.Benin .area2{
+    float: left;
+    height: 100%;
+    width: 66.7%;
+}
+.Benin .area3{
+    height: 50%;
+}
+.Benin .area4{
+    height: 50%;
+}
+
+/* Sweden */
+.Sweden .flag{
+    position: relative;
+}
+
+.Sweden .area1{
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 20px;
+    position: absolute;
+
+}
+.Sweden .area2{
+    left: 30%;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+
+}
+
+/* Switzerland */
+.Switzerland{
+    position: relative;
+    width: 200px;
+    height: 130px;
+    
+}
+.Switzerland .inner-container{
+    display: flex;
+    height: 100%;
+}
+
+.Switzerland .inner-container .flag{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin:auto;
+}
+
+.Switzerland .vertical{
+    position: absolute;
+    top:50%;  
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+    width: 70%;
+}
+
+.Switzerland .horizontal{
+    position: absolute;
+    top:50%;  
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 20%;
+}
+
+/* Tonga */
+.Tonga .flag{
+    position: relative;
+}
+
+.Tonga .inner-flag{
+    position: absolute;
+    height:50%;
+    width: 40%;
+}
+
+.Tonga .vertical{
+    position: absolute;
+    top:50%;  
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+    width: 70%;
+}
+
+.Tonga .horizontal{
+    position: absolute;
+    top:50%;  
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 20%;
+}
+
+
+/* Japan */
+.Japan .flag{
+    display: flex;
+}
+
+.Japan .area1{
+    padding-top:40%;
+    margin:auto;
+    border-radius: 50%;
+    width: 40%;
+}
+
+/* Canada */
+
+.Canada .flag{
+    position: relative;
+}
+.Canada .area1{
+    height: 100%;
+    width: 25%;
+    position: absolute;
+}
+
+.Canada .area3{
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    right: 0;
+}
+
+.Canada .area2{
+    right: 25%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+
+}
+
+.Canada .area2::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 85%;
+    background-image: url('/assets/images/canada_logo.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    top:15%;
+    left: -5%;
+    transform: rotateZ(28deg);
+}
+
+
+
+
