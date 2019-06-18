@@ -17,7 +17,7 @@
 /* Colors */
 .red { background-color: red;}
 .yellow {background-color: yellow;}
-.blue { background-color: blue;}
+.blue { background-color: darkblue;}
 .green {background-color: green;}
 .orange { background-color: orange}
 .white {background-color: white}
@@ -169,7 +169,7 @@
 .Tonga .inner-flag{
     position: absolute;
     height:50%;
-    width: 40%;
+    width: 50%;
 }
 
 .Tonga .vertical{
@@ -178,7 +178,7 @@
     left:50%;
     transform: translate(-50%, -50%);
     height: 20%;
-    width: 70%;
+    width: 60%;
 }
 
 .Tonga .horizontal{
@@ -187,7 +187,7 @@
     left:50%;
     transform: translate(-50%, -50%);
     height: 70%;
-    width: 20%;
+    width: 16%;
 }
 
 
@@ -241,6 +241,55 @@
     left: -5%;
     transform: rotateZ(28deg);
 }
+
+/* Norway */
+.Norway .flag{
+    position: relative;
+}
+
+.Norway .vertical{
+    position: absolute;
+    top:50%;  
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 25%;
+    width: 100%;
+
+}
+
+.Norway .horizontal{
+    position: absolute;
+    top:50%;  
+    left:40%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 20%;
+}
+
+.Norway .vertical.blue{
+    height: 12%;
+}
+
+.Norway .horizontal.blue{
+    width: 10%;
+}
+
+
+/* Greece */
+.Greece .flag{
+    display: flex;
+    flex-direction: column;
+}
+
+.Greece .flag > div{
+    height: calc(100% / 9);
+    width: 100%;
+}
+
+.Greece .flag > div:nth-child(odd){
+    background-color:#0d5eaf
+}
+
 
 
 
